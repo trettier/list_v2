@@ -4,7 +4,8 @@ def ft_sum_even_lst(a):
     for i in a:
         if j == 0:
             j -= 1
-            c += i
+
         else:
+            c += i
             j += 1
     return c
