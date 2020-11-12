@@ -4,7 +4,7 @@ def ft_join(a, sep=" "):
     for i in a:
         d += 1
     for i in range(d):
-        c += str(a[i])
+        c += a[i]
         if i != d - 1:
             c += sep
     return c
