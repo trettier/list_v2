@@ -14,8 +14,8 @@ def ft_strtlist(a):
     for i in c:
         ln += 1
     if c[-1] == '':
-        fin = ""
+        fin = []
         for i in range(ln - 1):
-            fin += i
+            fin.append(c[i])
         return fin
     return c
