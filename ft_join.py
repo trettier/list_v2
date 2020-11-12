@@ -1,4 +1,4 @@
-def ft_join(a, sep=" "):
+def ft_join(a, bd=" "):
     c = ''
     d = 0
     for i in a:
@@ -6,5 +6,5 @@ def ft_join(a, sep=" "):
     for i in range(d):
         c += str(a[i])
         if i != d - 1:
-            c += sep
+            c += bd
     return c
