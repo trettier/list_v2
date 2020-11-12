@@ -1,4 +1,4 @@
-def ft_rmstrspc(a, b, c=""):
+def ft_rmstrchar(a, b, c=""):
     n = 0
     for i in a:
         n += 1
@@ -17,6 +17,3 @@ def ft_rmstrspc(a, b, c=""):
                 d1 += d[j]
             d = d1 + c
     return d
-
-
-print(ft_rmstrspc("ftthree_sttr", "tt"))
