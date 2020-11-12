@@ -40,6 +40,3 @@ def ft_pos_neg_analysis_lst(a):
           f"Сумма чисел: {sum1},\tСумма чисел: {sum2},\n"
           f"Среднее значение: {sum1 / x}\tСреднее значение: {sum2 / y}\n\n"
           f"Количество нулей: {c}")
-
-
-ft_pos_neg_analysis_lst([-1, -2, 3, 6, 0])
