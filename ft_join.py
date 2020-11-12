@@ -1,8 +1,10 @@
 def ft_join(a, sep=" "):
     c = ''
+    d = 0
     for i in a:
+        d += 1
+    for i in range(d):
         c += str(i)
-        c += sep
-    for i in sep:
-        c = c[:-1]
+        if i != d - 1:
+            c += sep
     return c
